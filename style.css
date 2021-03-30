@@ -48,13 +48,9 @@ a:hover {
     
 }
 
-.sticky-nav {
-    position: fixed; /*untuk browser safari*/
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-color:black;
-    padding: 20px;
+.navbar {
+    background-color: black;
+    padding: 1rem;
 }
 
 .personal-info .row .col-5{
@@ -239,7 +235,6 @@ hr {
 
 .section-contact ul li:hover:nth-child(2) a{
     background: #3b5999;
-    
 }
 
 .section-contact ul li:hover:nth-child(2) a:before{
